@@ -1,44 +1,49 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
-border:0;
-font:inherit;
-font-size:100%;
-margin:0;
-padding:0;
-vertical-align:baseline;
+	border:0;
+	font:inherit;
+	font-size:100%;
+	margin:0;
+	padding:0;
+	vertical-align:baseline;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-display:block;
+	display:block;
 }
 
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {
+	background: #41444b;
+	font-family: 'Lato', helvetica, arial, sans-serif;
+	font-size: 16px;
+	color: #e7dec8;
+}
 
-.clear {clear: both;}
+.clear {
+	clear: both;
+}
 
 p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #444;
 }
 
 ul li {
     margin-bottom: 20px;
-    color: #444;
-		margin-left: 15px;
+	margin-left: 15px;
 }
 
 #cv {
 	width: 90%;
 	max-width: 800px;
-	background: #f3f3f3;
+	background: #52575d;
 	margin: 30px auto;
 }
 
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #1B2631;
-	background: #ededed;
+	background: #52575d;
 }
 
 #name h1 {
@@ -46,12 +51,14 @@ ul li {
 	font-weight: 700;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
+	color: #fddb3a;
 }
 
 #name h2 {
 	font-size: 2em;
 	margin-left: 2px;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	color: #fddb3a;
 }
 
 #mainArea {
@@ -88,26 +95,20 @@ ul li {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #444;
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: #444;
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
 	-o-transition: all .3s ease-in;
 	-ms-transition: all .3s ease-in;
 	transition: all .3s ease-in;
+	color: #fddb3a;
 }
-
-#contactDetails ul li a:hover {
-	color: #1B2631;
-}
-
 
 section {
-	border-top: 1px solid #dedede;
+	border-top: 1px solid #f6f4e6;
 	padding: 20px 0 0;
 }
 
@@ -122,6 +123,7 @@ section:last-child {
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #fddb3a;
 }
 
 .sectionContent {
@@ -133,7 +135,7 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #1B2631;
+	color: #fddb3a;
 }
 
 .sectionContent h2 {
@@ -155,7 +157,6 @@ section:last-child {
 	column-count:3;
 	margin-bottom: 20px;
 	font-size: 1em;
-	color: #444;
 }
 
 .keySkills ul li {
